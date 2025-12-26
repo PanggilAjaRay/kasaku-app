@@ -1,0 +1,10 @@
+POST /api/auth/login
+Body: { email, password }
+Response: { message, user, token }
+
+POST /api/auth/logout
+Response: { message }
+
+GET /api/auth/me
+Headers: Authorization: Bearer <token>
+Response: { user, subscription, addons }

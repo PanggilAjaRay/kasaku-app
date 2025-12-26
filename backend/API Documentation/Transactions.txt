@@ -1,0 +1,5 @@
+GET    /api/transactions
+POST   /api/transactions
+GET    /api/transactions/:id
+PUT    /api/transactions/:id
+DELETE /api/transactions/:id

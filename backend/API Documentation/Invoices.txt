@@ -1,0 +1,5 @@
+GET    /api/invoices
+POST   /api/invoices
+GET    /api/invoices/:id
+PUT    /api/invoices/:id
+PUT    /api/invoices/:id/paid

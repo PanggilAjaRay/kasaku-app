@@ -1,0 +1,13 @@
+
+
+    Password Hashing: Menggunakan bcrypt dengan salt rounds 10
+
+    JWT Security: Token disimpan di HttpOnly cookie, expire dalam 7 hari
+
+    SQL Injection: Dicegah dengan menggunakan Sequelize ORM
+
+    CORS: Dikonfigurasi hanya untuk domain frontend yang ditentukan
+
+    Environment Variables: Konfigurasi sensitif disimpan di .env
+
+    Input Validation: Menggunakan express-validator untuk semua input

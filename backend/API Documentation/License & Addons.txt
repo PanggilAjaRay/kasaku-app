@@ -1,0 +1,14 @@
+GET /api/license
+Response: {
+  status: "OK" | "EXPIRED",
+  plan: "FREE" | "PRO",
+  days_left: number,
+  addons: {
+    manufacturing: boolean,
+    restaurant: boolean,
+    plus_advance: boolean
+  }
+}
+
+PUT /api/license/addon
+Body: { addon: string, value: boolean }

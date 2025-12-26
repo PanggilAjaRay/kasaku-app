@@ -1,0 +1,27 @@
+# 1. Buat direktori proyek
+mkdir kasaku-backend
+cd kasaku-backend
+
+# 2. Inisialisasi npm
+npm init -y
+
+# 3. Install dependencies
+npm install express sqlite3 sequelize bcrypt jsonwebtoken dotenv cors express-validator cookie-parser
+npm install --save-dev nodemon sequelize-cli
+
+# 4. Buat struktur folder
+mkdir config database middleware controllers routes models utils
+mkdir database/migrations database/seeds
+
+# 5. Copy semua file di atas ke direktori yang sesuai
+
+# 6. Buat file .env
+cp .env.example .env
+# Edit .env sesuai kebutuhan
+
+# 7. Setup database
+chmod +x create_db.sh
+./create_db.sh
+
+# 8. Jalankan server
+npm run dev
